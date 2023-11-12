@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /*Cabecera de la Página Web*/
+  .header {
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 50px;
+    background-color: rgb(2, 104, 2);
+    color: #f2f2f2;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    background-color: rgb(2, 104, 2);
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+    /*Parte izquierda de la Página Web*/
+
+  .leftcolumn {
+    float: left;
+    width: 75%;
+    background-color: rgb(255, 255, 255);
+  }
+  .tabla1{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin: auto;
+    border-left-color: #000000;
+ }
+  .card {
+    background-color: rgb(2, 104, 2);
+    padding: 20px;
+    margin-top: 20px;
+    color: darkgoldenrod;
+    text-align: center;
+    align-items: center;
+  }
+  .Formulario {
+    background-color: rgb(130, 178, 128);
+    padding: 20px;
+    margin-top: 20px;
+    color: #000000;
+  }
+
+  /*Parte derecha de la Página Web*/
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px;
+    align-items: center;
+  }
+  .fakeimg {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  .Publicidad {
+    background-color: rgb(6, 6, 6);
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+  }
+
+    /*Parte footer de la Página Web*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+  }

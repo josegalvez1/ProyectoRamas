@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /*Cabecera de la Página Web*/
+
+  .header {
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 50px;
+    background-color: rgb(2, 104, 2);
+    color: #f2f2f2;
+  }
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    background-color: rgb(2, 104, 2);
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    color: black;
+  }
+
+  /*Parte izquierda de la Página Web*/
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  .card {
+    background-color: rgb(2, 104, 2);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: darkgoldenrod;
+  }
+
+  /*Parte derecha de la Página Web*/
+
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  .fakeimg {
+    width: 100%;
+    align-items: center;
+    height: 100%;
+  }
+  .Publicidad {
+    background-color: rgb(6, 6, 6);
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    align-items: center;
+  }
+
+  /*Parte footer de la Página Web*/
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+  }
